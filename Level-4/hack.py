@@ -31,12 +31,12 @@ class TestDatabase(unittest.TestCase):
         
         self.assertEqual(developer_output_expectation, what_hacker_passes)
 
-"""
-Further exploit input could be:
-"MSFT'; DROP TABLE stocks--" 
-through:
-op.get_stock_price("MSFT'; DROP TABLE stocks--")
-"""
+# """
+# Further exploit input could be:
+# "MSFT'; DROP TABLE stocks--" 
+# through:
+# op.get_stock_price("MSFT'; DROP TABLE stocks--")
+# """
         
-if __name__ == '__main__':    
-    unittest.main()
+# if __name__ == '__main__':    
+#     unittest.main()
